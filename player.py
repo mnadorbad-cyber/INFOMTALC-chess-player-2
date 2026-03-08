@@ -59,7 +59,7 @@ def _rule_adjustment(board: chess.Board, move: chess.Move) -> float:
 
 class TransformerPlayer(Player):
 
-    MODEL_NAME = "Mnadoba/GPT2-fine-tuned-chess-model"
+    MODEL_NAME = "Mnadoba/GPT2-trained-on-chess-data-model"
 
     def __init__(self, name: str = "TransformerPlayer"):
         super().__init__(name)
